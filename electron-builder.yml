@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: electron-demo-2025
+productName: partners-table
 directories:
   buildResources: build
 files:
@@ -11,9 +11,10 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: electron-demo-2025
+  executableName: partners-table
+  icon: 'resources/Мастер пол.ico'
 nsis:
-  artifactName: ${name}-${version}-setup.${ext}
+  artifactName: ${name}-${version}.${ext}
   shortcutName: ${productName}
   uninstallDisplayName: ${productName}
   createDesktopShortcut: always
